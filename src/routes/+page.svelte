@@ -14,10 +14,9 @@
     <title>{title}</title>
   
     <!-- Preload fonts -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" as="font" type="font/woff2" crossorigin="anonymous" />
-  
+   
     <!-- Lazy-load Google Ads -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
   </svelte:head>
   
   <script>
