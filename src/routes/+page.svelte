@@ -63,10 +63,10 @@
   
   <main class="w-full flex flex-col min-h-screen">
     <div class="flex-grow flex flex-col items-center justify-center px-4">
-      <div class="text-center w-full max-w-md sm:max-w-lg md:max-w-xl">
+      <div class="text-center w-full max-w-md sm:max-w-lg md:max-w-xl mx-auto">
         <h1 class="text-2xl sm:text-3xl font-bold font-geist-sans my-8">Your IP Address</h1>
 
-        <div id="ip" class="text-2xl w-[80%] sm:w-[100%] mx-auto sm:text-4xl font-bold mt-4 p-4 bg-white rounded-lg shadow-sm relative">
+        <div id="ip" class="text-2xl sm:text-4xl font-bold mt-4 p-4 bg-white rounded-lg shadow-sm relative mx-auto w-[90%] sm:w-[80%]">
           <span class="block">{ip}</span>
           <button
             class="absolute right-4 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-100 rounded-lg transition-colors"
@@ -77,7 +77,7 @@
         </div>
 
         <Button
-          class="mt-8 text-xs font-bold"
+          class="mt-6 text-xs font-bold mx-auto"
           on:click={copyIP}
         >
           Copy to Clipboard
@@ -104,7 +104,7 @@
         </div>
       </div>
     </div>
-    <footer class="mb-4 text-xs text-center text-gray-500 opacity-80 font-geist-sans">
+    <footer class="w-full text-center py-4 text-xs text-gray-500 opacity-80 font-geist-sans">
       &copy; 2025 adwander.com — Built with privacy in mind, supported by ads.
     </footer>
   </main>
